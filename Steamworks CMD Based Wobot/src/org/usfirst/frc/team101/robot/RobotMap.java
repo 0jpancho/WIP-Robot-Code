@@ -1,5 +1,6 @@
 package org.usfirst.frc.team101.robot;
 
+import edu.wpi.first.wpilibj.ADXRS450_Gyro;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.Talon;
 
@@ -21,6 +22,8 @@ public class RobotMap {
 	
 	public static Talon motorLeft = new Talon(0);
 	public static Talon motorRight = new Talon(1);
+	
+	public static ADXRS450_Gyro gyro = new ADXRS450_Gyro();
 
 	// If you are using multiple modules, make sure to define both the port
 	// number and the module. For example you with a rangefinder:
